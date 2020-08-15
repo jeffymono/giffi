@@ -7,6 +7,6 @@ const TrendingSearches = ()=>{
         getTrendingTerms().then(singletrend=>setTrends(singletrend))
     },[])
     
-    return <Category name="Tendencias" options={trends}/>
+    return <Category name="Trendings" options={trends}/>
     }
     export default TrendingSearches
